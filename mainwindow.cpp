@@ -1,77 +1,167 @@
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
+#include "./ui_mainwindow.h"
+#include "recipe.h"
+#include "addallergenwindow.h"
+#include "addingredientwindow.h"
+#include "createrecipewindow.h"
+#include <vector>
+#include "allergen.h"
+#include "editrecipewindow.h"
+#include "global.h"
 
-using namespace std;
+int counter = 0;
+std::vector<Recipe*> listOfRecipies{};
+bool baseRecipeRemoved = false;
 
-MainWindow::MainWindow(QWidget *parent) :
-    QMainWindow(parent),
-    ui(new Ui::MainWindow)
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent)
+    , ui(new Ui::MainWindow)
 {
+    Ingredient* a = new Ingredient("Sample Ingredient", 0);
+    QList<Ingredient*> ingList{a};
+    Recipe* baseRecipe = new Recipe("Buffalo Wings", "1", "Bla bla", 30, ingList, "N/A", false);
+    listOfRecipies.push_back(baseRecipe);
+
     ui->setupUi(this);
-    connect(ui->QuantitySlider, SIGNAL(valueChanged(int)), ui->QuantityText, SLOT(setNum(int)));
-    connect(ui->AddRecipeBtn, SIGNAL(clicked(bool)), this, SLOT(SlotAddNewRecipe()));
-}
-
-void MainWindow::SlotAddNewRecipe(){
-    QString recipeName = ui->RecipeInput->text();
-    QString flavor;
-    if(ui->Salty->isChecked()){
-        flavor = "Salty";
-    }else if(ui->Sweet->isChecked()){
-        flavor = "Sweet";
-    }else{
-        flavor = "Spicy";
-    }
-
-    double qty = ui->QuantitySlider->value();
-
-    QString required;
-    if(ui->RequiredCB->isChecked()){
-        required = "Must be included";
-    }else{
-        required = "Can be avoided";
-    }
-
-    QVBoxLayout* vMainLayout = qobject_cast<QVBoxLayout*>(ui->AllRecipeLayout->layout());
-
-    QFrame* Hframe = new QFrame();
-    Hframe->setFrameStyle(QFrame::StyledPanel);
-
-    QHBoxLayout* newRecipeFrame= new QHBoxLayout(Hframe);
-    Hframe->setLayout(newRecipeFrame);
-
-    //change one of the qty to flavor
-    QString RecipeDetails = "Recipe: " + recipeName + "\tQuantity(in mg): " + QString::number(qty) +  "\nFlavor: " + flavor + "\n" + required;
-
-    QLabel* newRecipeLabel = new QLabel(RecipeDetails);
-    newRecipeFrame->addWidget(newRecipeLabel);
-
-    QPushButton* deleteBtn = new QPushButton("Delete");
-    deleteBtn->setFixedSize(QSize(65,25));
-    newRecipeFrame->addWidget(deleteBtn);
-    deleteBtn->setProperty("CurrentRecipe", QVariant(QVariant::fromValue<QFrame*>(Hframe)));
-
-    connect(deleteBtn, SIGNAL(clicked()), this, SLOT(SlotDeleteRecipe()));
-
-
-    vMainLayout->insertWidget(0,Hframe);
-}
-
-
-void MainWindow::SlotDeleteRecipe() {
-
-    QPushButton* fromButton = (QPushButton*)sender();
-
-    QVariant var;
-    var = fromButton->property("CurrentRecipe");
-    QFrame* recipeHBox = qvariant_cast<QFrame*>(var);
-
-    recipeHBox->deleteLater();
-    delete recipeHBox;
-
-}
-
+    this->setWindowTitle("Chicken Wings");
+    ui->gridLayout->setSizeConstraint(QLayout::SetMinimumSize);
+    ui->label_Ingredients->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Minimum);
+     *this << baseRecipe;
+};
+//memory management
 MainWindow::~MainWindow()
 {
+    for(Allergen* a : Allergen::getListOfAllergens()){
+        delete(a);
+    }
+    for(Ingredient* i : Ingredient::getListOfIngredients()){
+        delete(i);
+    }
+    for(Recipe * a : listOfRecipies){
+        delete(a);
+    }
     delete ui;
 }
+
+//operator overloading
+void MainWindow::operator<< ( Recipe* b){
+    ui->titleLabel->setText(QString::fromStdString(b->name));
+    ui->AllergiesLabel->setText("Allergens : " + QString::fromStdString(b->allergens));
+
+    std::string hotness = "";
+    if(QString::number(b->isSpicy()) == '1'){
+        hotness = "Spicy";
+    }else{
+        hotness = "Not Spicy";
+    }
+    ui->DietLabel->setText("Hotness : " + QString::fromStdString(hotness));
+    ui->PiecesLabel->setText("Pieces : " + QString::fromStdString(b->pieces));
+    ui->TTCLabel->setText("Time to Cook (minutes) : " +QString::number(b->timeToCook));
+    ui->CaloriesLabel->setText("Calories :"  + QString::number(b->getCalories())); //overridden virtual function
+    std::string ingList;
+    for(Ingredient* i : b->listOfIngredients){
+        ingList += i->getName();
+        ingList += "\nCalories: ";
+        ingList += std::to_string(i->getCalories()); //this getCalories is a virtual function that is overrideen by its derived class 5 lines up
+        ingList += "\n\n";
+    }
+
+    ui->label_Ingredients->setText("Ingredients: \n" + QString::fromStdString(ingList));
+    ui->label_steps->setText("Steps:\n " + QString::fromStdString(b->steps));
+
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+    counter++;
+    if (counter >= listOfRecipies.size()){
+
+        counter = 0;
+    }
+    Recipe* currentRecipe = listOfRecipies.at(counter);
+
+    *this << currentRecipe;
+
+
+}
+
+
+std::vector<Recipe*> MainWindow::getListOfRecipies(){
+    return listOfRecipies;
+}
+
+
+
+void MainWindow::updateRecipies(Recipe* a){
+    if(baseRecipeRemoved == false){
+        listOfRecipies.erase(listOfRecipies.begin());
+        baseRecipeRemoved = true;
+    }
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    counter--;
+    if (counter <= -1){
+        counter = listOfRecipies.size() - 1;
+
+    }
+    Recipe* currentRecipe = listOfRecipies.at(counter);
+    *this << currentRecipe;
+
+
+}
+
+
+void MainWindow::on_actionAllergen_triggered()
+{
+        AddAllergenWindow* windowAllergen = new AddAllergenWindow;
+        windowAllergen->show_window();
+}
+
+
+void MainWindow::on_actionIngredient_triggered()
+{
+    addingredientwindow* windowIng = new addingredientwindow;
+    windowIng->show_window();
+
+}
+
+
+void MainWindow::on_actionRecipe_triggered()
+{
+    CreateRecipeWindow* a = new CreateRecipeWindow;
+    connect(a, SIGNAL(recipeAdded(Recipe*)), this, SLOT(updateRecipies(Recipe*)));
+
+    a->show_window();
+}
+
+void MainWindow::on_actionCopy_Current_Recipe_triggered()
+{
+    //SHALLOW COPY
+    Recipe* newRecipe = listOfRecipies.at(counter);
+    CreateRecipeWindow* a = new CreateRecipeWindow;
+    a->setUi(newRecipe);
+    a->show_window();
+
+}
+
+
+void MainWindow::on_actionCurrentRecipe_triggered()
+{
+    //deep copy
+    Recipe* newRecipe(listOfRecipies.at(counter));
+    for(int i = 0; i < newRecipe->listOfIngredients.size(); i++){
+    }
+    EditRecipeWindow* a = new EditRecipeWindow;
+    connect(a, SIGNAL(recipeEdited(Recipe*)), this, SLOT(editRecipe(Recipe*)));
+
+    a->setup(newRecipe);
+
+}
+void MainWindow::editRecipe(Recipe* a){
+    std::replace(listOfRecipies.begin(), listOfRecipies.end(),listOfRecipies.at(counter), a );
+    *this << listOfRecipies.at(counter);
+
+}
+

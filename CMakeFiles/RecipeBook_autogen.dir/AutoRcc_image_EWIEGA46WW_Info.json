@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/sushant/Documents/RecipeApp/RecipeBook_autogen",
+	"CMAKE_BINARY_DIR" : "/home/sushant/Documents/RecipeApp",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/sushant/Documents/RecipeApp",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/sushant/Documents/RecipeApp",
+	"CMAKE_SOURCE_DIR" : "/home/sushant/Documents/RecipeApp",
+	"INCLUDE_DIR" : "/home/sushant/Documents/RecipeApp/RecipeBook_autogen/include",
+	"INPUTS" : [ "/home/sushant/Documents/RecipeApp/glass.png" ],
+	"LOCK_FILE" : "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook_autogen.dir/AutoRcc_image_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "image" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_image.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook_autogen.dir/AutoRcc_image_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/sushant/Documents/RecipeApp/image.qrc",
+	"VERBOSITY" : 0
+}

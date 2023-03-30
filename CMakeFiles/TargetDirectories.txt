@@ -1,0 +1,8 @@
+/home/sushant/Documents/RecipeApp/CMakeFiles/install/strip.dir
+/home/sushant/Documents/RecipeApp/CMakeFiles/install/local.dir
+/home/sushant/Documents/RecipeApp/CMakeFiles/install.dir
+/home/sushant/Documents/RecipeApp/CMakeFiles/list_install_components.dir
+/home/sushant/Documents/RecipeApp/CMakeFiles/rebuild_cache.dir
+/home/sushant/Documents/RecipeApp/CMakeFiles/edit_cache.dir
+/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir
+/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook_autogen.dir

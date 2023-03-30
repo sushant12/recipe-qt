@@ -2,29 +2,50 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "recipe.h"
 
-namespace Ui {
-class MainWindow;
-}
+QT_BEGIN_NAMESPACE
+namespace Ui { class MainWindow; }
+QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = 0);
+    //static vector<Recipe *> listOfRecipies;
+    void operator<< ( Recipe* );
+
+    friend class AddAllergenWindow;
+    friend class deleterecipewindow;
+    MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    std::vector<Recipe*>getListOfRecipies();
+public slots:
+
+    void editRecipe(Recipe*);
+    void updateRecipies(Recipe *);
+
+private slots:
+    void on_pushButton_clicked();
+    void on_pushButton_2_clicked();
+
+    void on_actionAllergen_triggered();
+
+//    void on_actionAllergen_triggered(bool checked);
+
+    void on_actionIngredient_triggered();
+
+    void on_actionRecipe_triggered();
+
+
+
+
+    void on_actionCopy_Current_Recipe_triggered();
+
+    void on_actionCurrentRecipe_triggered();
 
 private:
     Ui::MainWindow *ui;
-
-public slots:
-    void SlotAddNewRecipe();
-    void SlotDeleteRecipe();
-
-signals:
-    void SignalAddNewRecipe();
-    void SignalDeleteRecipe();
 };
-
 #endif // MAINWINDOW_H
