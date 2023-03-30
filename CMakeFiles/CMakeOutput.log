@@ -10,27 +10,27 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/sushant/Documents/RecipeApp/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/sushant/Documents/recipe-qt/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/sushant/Documents/RecipeApp/CMakeFiles/CMakeTmp
+Change Dir: /home/sushant/Documents/recipe-qt/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_c732e/fast && /usr/bin/make -f CMakeFiles/cmTC_c732e.dir/build.make CMakeFiles/cmTC_c732e.dir/build
-make[1]: Entering directory '/home/sushant/Documents/RecipeApp/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/sushant/Documents/recipe-qt/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_c732e.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_c732e.dir/testCXXCompiler.cxx.o -c /home/sushant/Documents/RecipeApp/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+/usr/bin/c++     -o CMakeFiles/cmTC_c732e.dir/testCXXCompiler.cxx.o -c /home/sushant/Documents/recipe-qt/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
 Linking CXX executable cmTC_c732e
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c732e.dir/link.txt --verbose=1
 /usr/bin/c++       CMakeFiles/cmTC_c732e.dir/testCXXCompiler.cxx.o  -o cmTC_c732e 
-make[1]: Leaving directory '/home/sushant/Documents/RecipeApp/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sushant/Documents/recipe-qt/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/sushant/Documents/RecipeApp/CMakeFiles/CMakeTmp
+Change Dir: /home/sushant/Documents/recipe-qt/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_bdcce/fast && /usr/bin/make -f CMakeFiles/cmTC_bdcce.dir/build.make CMakeFiles/cmTC_bdcce.dir/build
-make[1]: Entering directory '/home/sushant/Documents/RecipeApp/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/sushant/Documents/recipe-qt/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_bdcce.dir/CMakeCXXCompilerABI.cpp.o
 /usr/bin/c++    -v -o CMakeFiles/cmTC_bdcce.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
@@ -89,7 +89,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/..
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bdcce' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCiovSu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bdcce /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_bdcce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bdcce' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/sushant/Documents/RecipeApp/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sushant/Documents/recipe-qt/CMakeFiles/CMakeTmp'
 
 
 
@@ -116,10 +116,10 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/sushant/Documents/RecipeApp/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/sushant/Documents/recipe-qt/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make cmTC_bdcce/fast && /usr/bin/make -f CMakeFiles/cmTC_bdcce.dir/build.make CMakeFiles/cmTC_bdcce.dir/build]
-  ignore line: [make[1]: Entering directory '/home/sushant/Documents/RecipeApp/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/home/sushant/Documents/recipe-qt/CMakeFiles/CMakeTmp']
   ignore line: [Building CXX object CMakeFiles/cmTC_bdcce.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_bdcce.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]

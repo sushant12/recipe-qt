@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sushant/Documents/RecipeApp
+CMAKE_SOURCE_DIR = /home/sushant/Documents/recipe-qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sushant/Documents/RecipeApp
+CMAKE_BINARY_DIR = /home/sushant/Documents/recipe-qt
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RecipeBook.dir/depend.make
@@ -61,177 +61,177 @@ RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp: image.qrc
 RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp: CMakeFiles/RecipeBook_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json
 RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp: glass.png
 RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp: /usr/lib/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for image.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for image.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json 
 
 CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.o: RecipeBook_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.o -c /home/sushant/Documents/RecipeApp/RecipeBook_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.o -c /home/sushant/Documents/recipe-qt/RecipeBook_autogen/mocs_compilation.cpp
 
 CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/RecipeBook_autogen/mocs_compilation.cpp > CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/RecipeBook_autogen/mocs_compilation.cpp > CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/RecipeBook_autogen/mocs_compilation.cpp -o CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/RecipeBook_autogen/mocs_compilation.cpp -o CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/RecipeBook.dir/main.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RecipeBook.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/main.cpp.o -c /home/sushant/Documents/RecipeApp/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RecipeBook.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/main.cpp.o -c /home/sushant/Documents/recipe-qt/main.cpp
 
 CMakeFiles/RecipeBook.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/main.cpp > CMakeFiles/RecipeBook.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/main.cpp > CMakeFiles/RecipeBook.dir/main.cpp.i
 
 CMakeFiles/RecipeBook.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/main.cpp -o CMakeFiles/RecipeBook.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/main.cpp -o CMakeFiles/RecipeBook.dir/main.cpp.s
 
 CMakeFiles/RecipeBook.dir/mainwindow.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/mainwindow.cpp.o: mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RecipeBook.dir/mainwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/mainwindow.cpp.o -c /home/sushant/Documents/RecipeApp/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RecipeBook.dir/mainwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/mainwindow.cpp.o -c /home/sushant/Documents/recipe-qt/mainwindow.cpp
 
 CMakeFiles/RecipeBook.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/mainwindow.cpp > CMakeFiles/RecipeBook.dir/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/mainwindow.cpp > CMakeFiles/RecipeBook.dir/mainwindow.cpp.i
 
 CMakeFiles/RecipeBook.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/mainwindow.cpp -o CMakeFiles/RecipeBook.dir/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/mainwindow.cpp -o CMakeFiles/RecipeBook.dir/mainwindow.cpp.s
 
 CMakeFiles/RecipeBook.dir/recipe.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/recipe.cpp.o: recipe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RecipeBook.dir/recipe.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/recipe.cpp.o -c /home/sushant/Documents/RecipeApp/recipe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RecipeBook.dir/recipe.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/recipe.cpp.o -c /home/sushant/Documents/recipe-qt/recipe.cpp
 
 CMakeFiles/RecipeBook.dir/recipe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/recipe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/recipe.cpp > CMakeFiles/RecipeBook.dir/recipe.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/recipe.cpp > CMakeFiles/RecipeBook.dir/recipe.cpp.i
 
 CMakeFiles/RecipeBook.dir/recipe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/recipe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/recipe.cpp -o CMakeFiles/RecipeBook.dir/recipe.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/recipe.cpp -o CMakeFiles/RecipeBook.dir/recipe.cpp.s
 
 CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.o: IncorrectInputException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.o -c /home/sushant/Documents/RecipeApp/IncorrectInputException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.o -c /home/sushant/Documents/recipe-qt/IncorrectInputException.cpp
 
 CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/IncorrectInputException.cpp > CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/IncorrectInputException.cpp > CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.i
 
 CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/IncorrectInputException.cpp -o CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/IncorrectInputException.cpp -o CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.s
 
 CMakeFiles/RecipeBook.dir/ingredient.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/ingredient.cpp.o: ingredient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RecipeBook.dir/ingredient.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/ingredient.cpp.o -c /home/sushant/Documents/RecipeApp/ingredient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RecipeBook.dir/ingredient.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/ingredient.cpp.o -c /home/sushant/Documents/recipe-qt/ingredient.cpp
 
 CMakeFiles/RecipeBook.dir/ingredient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/ingredient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/ingredient.cpp > CMakeFiles/RecipeBook.dir/ingredient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/ingredient.cpp > CMakeFiles/RecipeBook.dir/ingredient.cpp.i
 
 CMakeFiles/RecipeBook.dir/ingredient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/ingredient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/ingredient.cpp -o CMakeFiles/RecipeBook.dir/ingredient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/ingredient.cpp -o CMakeFiles/RecipeBook.dir/ingredient.cpp.s
 
 CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.o: incorrectinputexceptionwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.o -c /home/sushant/Documents/RecipeApp/incorrectinputexceptionwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.o -c /home/sushant/Documents/recipe-qt/incorrectinputexceptionwindow.cpp
 
 CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/incorrectinputexceptionwindow.cpp > CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/incorrectinputexceptionwindow.cpp > CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.i
 
 CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/incorrectinputexceptionwindow.cpp -o CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/incorrectinputexceptionwindow.cpp -o CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.s
 
 CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.o: addallergenwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.o -c /home/sushant/Documents/RecipeApp/addallergenwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.o -c /home/sushant/Documents/recipe-qt/addallergenwindow.cpp
 
 CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/addallergenwindow.cpp > CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/addallergenwindow.cpp > CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.i
 
 CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/addallergenwindow.cpp -o CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/addallergenwindow.cpp -o CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.s
 
 CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.o: addingredientwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.o -c /home/sushant/Documents/RecipeApp/addingredientwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.o -c /home/sushant/Documents/recipe-qt/addingredientwindow.cpp
 
 CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/addingredientwindow.cpp > CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/addingredientwindow.cpp > CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.i
 
 CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/addingredientwindow.cpp -o CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/addingredientwindow.cpp -o CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.s
 
 CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.o: createrecipewindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.o -c /home/sushant/Documents/RecipeApp/createrecipewindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.o -c /home/sushant/Documents/recipe-qt/createrecipewindow.cpp
 
 CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/createrecipewindow.cpp > CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/createrecipewindow.cpp > CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.i
 
 CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/createrecipewindow.cpp -o CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/createrecipewindow.cpp -o CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.s
 
 CMakeFiles/RecipeBook.dir/allergen.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/allergen.cpp.o: allergen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RecipeBook.dir/allergen.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/allergen.cpp.o -c /home/sushant/Documents/RecipeApp/allergen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RecipeBook.dir/allergen.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/allergen.cpp.o -c /home/sushant/Documents/recipe-qt/allergen.cpp
 
 CMakeFiles/RecipeBook.dir/allergen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/allergen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/allergen.cpp > CMakeFiles/RecipeBook.dir/allergen.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/allergen.cpp > CMakeFiles/RecipeBook.dir/allergen.cpp.i
 
 CMakeFiles/RecipeBook.dir/allergen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/allergen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/allergen.cpp -o CMakeFiles/RecipeBook.dir/allergen.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/allergen.cpp -o CMakeFiles/RecipeBook.dir/allergen.cpp.s
 
 CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.o: editrecipewindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.o -c /home/sushant/Documents/RecipeApp/editrecipewindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.o -c /home/sushant/Documents/recipe-qt/editrecipewindow.cpp
 
 CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/editrecipewindow.cpp > CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/editrecipewindow.cpp > CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.i
 
 CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/editrecipewindow.cpp -o CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/editrecipewindow.cpp -o CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.s
 
 CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.o: CMakeFiles/RecipeBook.dir/flags.make
 CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.o: RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.o -c /home/sushant/Documents/RecipeApp/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.o -c /home/sushant/Documents/recipe-qt/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp
 
 CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/RecipeApp/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp > CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sushant/Documents/recipe-qt/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp > CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.i
 
 CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/RecipeApp/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp -o CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sushant/Documents/recipe-qt/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp -o CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.s
 
 # Object files for target RecipeBook
 RecipeBook_OBJECTS = \
@@ -270,7 +270,7 @@ RecipeBook: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 RecipeBook: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 RecipeBook: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 RecipeBook: CMakeFiles/RecipeBook.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable RecipeBook"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable RecipeBook"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RecipeBook.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -283,6 +283,6 @@ CMakeFiles/RecipeBook.dir/clean:
 .PHONY : CMakeFiles/RecipeBook.dir/clean
 
 CMakeFiles/RecipeBook.dir/depend: RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp
-	cd /home/sushant/Documents/RecipeApp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sushant/Documents/RecipeApp /home/sushant/Documents/RecipeApp /home/sushant/Documents/RecipeApp /home/sushant/Documents/RecipeApp /home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sushant/Documents/recipe-qt && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sushant/Documents/recipe-qt /home/sushant/Documents/recipe-qt /home/sushant/Documents/recipe-qt /home/sushant/Documents/recipe-qt /home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RecipeBook.dir/depend
 

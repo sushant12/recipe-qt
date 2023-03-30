@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sushant/Documents/RecipeApp/IncorrectInputException.h
+/home/sushant/Documents/recipe-qt/IncorrectInputException.h
 iostream
 -
 
-/home/sushant/Documents/RecipeApp/allergen.h
+/home/sushant/Documents/recipe-qt/allergen.h
 string
 -
 sstream
@@ -20,41 +20,53 @@ vector
 QDebug
 -
 baseallergenitem.h
-/home/sushant/Documents/RecipeApp/baseallergenitem.h
+/home/sushant/Documents/recipe-qt/baseallergenitem.h
 
-/home/sushant/Documents/RecipeApp/baseallergenitem.h
+/home/sushant/Documents/recipe-qt/baseallergenitem.h
 string
 -
 
-/home/sushant/Documents/RecipeApp/basefooditem.h
+/home/sushant/Documents/recipe-qt/basefooditem.h
 string
 -
 
-/home/sushant/Documents/RecipeApp/editrecipewindow.cpp
-editrecipewindow.h
-/home/sushant/Documents/RecipeApp/editrecipewindow.h
-ui_editrecipewindow.h
-/home/sushant/Documents/RecipeApp/ui_editrecipewindow.h
-allergen.h
-/home/sushant/Documents/RecipeApp/allergen.h
+/home/sushant/Documents/recipe-qt/createrecipewindow.cpp
+createrecipewindow.h
+/home/sushant/Documents/recipe-qt/createrecipewindow.h
+ui_createrecipewindow.h
+/home/sushant/Documents/recipe-qt/ui_createrecipewindow.h
+ingredient.h
+/home/sushant/Documents/recipe-qt/ingredient.h
 IncorrectInputException.h
-/home/sushant/Documents/RecipeApp/IncorrectInputException.h
-algorithm
+/home/sushant/Documents/recipe-qt/IncorrectInputException.h
+global.h
+/home/sushant/Documents/recipe-qt/global.h
+QValidator
 -
+recipe.h
+/home/sushant/Documents/recipe-qt/recipe.h
+allergen.h
+/home/sushant/Documents/recipe-qt/allergen.h
 
-/home/sushant/Documents/RecipeApp/editrecipewindow.h
+/home/sushant/Documents/recipe-qt/createrecipewindow.h
 QDialog
 -
 recipe.h
-/home/sushant/Documents/RecipeApp/recipe.h
+/home/sushant/Documents/recipe-qt/recipe.h
 
-/home/sushant/Documents/RecipeApp/ingredient.h
+/home/sushant/Documents/recipe-qt/global.h
+vector
+-
+recipe.h
+/home/sushant/Documents/recipe-qt/recipe.h
+
+/home/sushant/Documents/recipe-qt/ingredient.h
 string
 -
 vector
 -
 
-/home/sushant/Documents/RecipeApp/recipe.h
+/home/sushant/Documents/recipe-qt/recipe.h
 string
 -
 vector
@@ -62,11 +74,11 @@ vector
 initializer_list
 -
 ingredient.h
-/home/sushant/Documents/RecipeApp/ingredient.h
+/home/sushant/Documents/recipe-qt/ingredient.h
 QList
 -
 basefooditem.h
-/home/sushant/Documents/RecipeApp/basefooditem.h
+/home/sushant/Documents/recipe-qt/basefooditem.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 qdebug.h
@@ -805,6 +817,10 @@ QtCore/qglobal.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QList
 qevent.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QValidator
+qvalidator.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h
 QtGui/qtguiglobal.h
@@ -1662,7 +1678,7 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
-RecipeBook_autogen/include/ui_editrecipewindow.h
+RecipeBook_autogen/include/ui_createrecipewindow.h
 QtCore/QVariant
 -
 QtWidgets/QApplication

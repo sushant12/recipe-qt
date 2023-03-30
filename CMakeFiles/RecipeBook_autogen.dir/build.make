@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sushant/Documents/RecipeApp
+CMAKE_SOURCE_DIR = /home/sushant/Documents/recipe-qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sushant/Documents/RecipeApp
+CMAKE_BINARY_DIR = /home/sushant/Documents/recipe-qt
 
 # Utility rule file for RecipeBook_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/sushant/Documents/RecipeApp
 include CMakeFiles/RecipeBook_autogen.dir/progress.make
 
 CMakeFiles/RecipeBook_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sushant/Documents/RecipeApp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target RecipeBook"
-	/usr/bin/cmake -E cmake_autogen /home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sushant/Documents/recipe-qt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target RecipeBook"
+	/usr/bin/cmake -E cmake_autogen /home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook_autogen.dir/AutogenInfo.json ""
 
 RecipeBook_autogen: CMakeFiles/RecipeBook_autogen
 RecipeBook_autogen: CMakeFiles/RecipeBook_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/RecipeBook_autogen.dir/clean:
 .PHONY : CMakeFiles/RecipeBook_autogen.dir/clean
 
 CMakeFiles/RecipeBook_autogen.dir/depend:
-	cd /home/sushant/Documents/RecipeApp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sushant/Documents/RecipeApp /home/sushant/Documents/RecipeApp /home/sushant/Documents/RecipeApp /home/sushant/Documents/RecipeApp /home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sushant/Documents/recipe-qt && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sushant/Documents/recipe-qt /home/sushant/Documents/recipe-qt /home/sushant/Documents/recipe-qt /home/sushant/Documents/recipe-qt /home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RecipeBook_autogen.dir/depend
 

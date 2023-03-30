@@ -39,23 +39,22 @@ public:
     QWidget *centralwidget;
     QWidget *gridLayoutWidget;
     QGridLayout *gridLayout;
-    QHBoxLayout *horizontalLayout_2;
-    QLabel *titleLabel;
-    QVBoxLayout *verticalLayout;
-    QLabel *DietLabel;
-    QLabel *AllergiesLabel;
-    QLabel *PiecesLabel;
-    QLabel *CaloriesLabel;
-    QLabel *TTCLabel;
-    QFrame *line;
-    QFrame *line_3;
-    QLabel *label_steps;
     QFrame *line_2;
+    QFrame *line_3;
+    QFrame *line_4;
+    QFrame *line;
+    QLabel *label_steps;
     QHBoxLayout *horizontalLayout;
     QPushButton *pushButton_2;
     QPushButton *pushButton;
+    QVBoxLayout *verticalLayout;
+    QLabel *NameLabel;
+    QLabel *HotnessLabel;
+    QLabel *AllergensLabel;
+    QLabel *PiecesLabel;
+    QLabel *CaloriesLabel;
+    QLabel *TimeLabel;
     QLabel *label_Ingredients;
-    QFrame *line_4;
     QMenuBar *menubar;
     QMenu *menuAllergen;
     QMenu *menuIngredients;
@@ -89,74 +88,38 @@ public:
         gridLayout = new QGridLayout(gridLayoutWidget);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
-        horizontalLayout_2 = new QHBoxLayout();
-        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
-        titleLabel = new QLabel(gridLayoutWidget);
-        titleLabel->setObjectName(QString::fromUtf8("titleLabel"));
-        QFont font;
-        font.setPointSize(48);
-        titleLabel->setFont(font);
+        line_2 = new QFrame(gridLayoutWidget);
+        line_2->setObjectName(QString::fromUtf8("line_2"));
+        line_2->setFrameShape(QFrame::HLine);
+        line_2->setFrameShadow(QFrame::Sunken);
 
-        horizontalLayout_2->addWidget(titleLabel);
-
-
-        gridLayout->addLayout(horizontalLayout_2, 1, 0, 1, 1);
-
-        verticalLayout = new QVBoxLayout();
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        DietLabel = new QLabel(gridLayoutWidget);
-        DietLabel->setObjectName(QString::fromUtf8("DietLabel"));
-
-        verticalLayout->addWidget(DietLabel);
-
-        AllergiesLabel = new QLabel(gridLayoutWidget);
-        AllergiesLabel->setObjectName(QString::fromUtf8("AllergiesLabel"));
-
-        verticalLayout->addWidget(AllergiesLabel);
-
-        PiecesLabel = new QLabel(gridLayoutWidget);
-        PiecesLabel->setObjectName(QString::fromUtf8("PiecesLabel"));
-
-        verticalLayout->addWidget(PiecesLabel);
-
-        CaloriesLabel = new QLabel(gridLayoutWidget);
-        CaloriesLabel->setObjectName(QString::fromUtf8("CaloriesLabel"));
-
-        verticalLayout->addWidget(CaloriesLabel);
-
-        TTCLabel = new QLabel(gridLayoutWidget);
-        TTCLabel->setObjectName(QString::fromUtf8("TTCLabel"));
-
-        verticalLayout->addWidget(TTCLabel);
-
-
-        gridLayout->addLayout(verticalLayout, 3, 0, 1, 1);
-
-        line = new QFrame(gridLayoutWidget);
-        line->setObjectName(QString::fromUtf8("line"));
-        line->setFrameShape(QFrame::HLine);
-        line->setFrameShadow(QFrame::Sunken);
-
-        gridLayout->addWidget(line, 2, 0, 1, 1);
+        gridLayout->addWidget(line_2, 3, 0, 1, 1);
 
         line_3 = new QFrame(gridLayoutWidget);
         line_3->setObjectName(QString::fromUtf8("line_3"));
         line_3->setFrameShape(QFrame::HLine);
         line_3->setFrameShadow(QFrame::Sunken);
 
-        gridLayout->addWidget(line_3, 6, 0, 1, 1);
+        gridLayout->addWidget(line_3, 5, 0, 1, 1);
+
+        line_4 = new QFrame(gridLayoutWidget);
+        line_4->setObjectName(QString::fromUtf8("line_4"));
+        line_4->setFrameShape(QFrame::HLine);
+        line_4->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line_4, 7, 0, 1, 1);
+
+        line = new QFrame(gridLayoutWidget);
+        line->setObjectName(QString::fromUtf8("line"));
+        line->setFrameShape(QFrame::HLine);
+        line->setFrameShadow(QFrame::Sunken);
+
+        gridLayout->addWidget(line, 1, 0, 1, 1);
 
         label_steps = new QLabel(gridLayoutWidget);
         label_steps->setObjectName(QString::fromUtf8("label_steps"));
 
-        gridLayout->addWidget(label_steps, 7, 0, 1, 1);
-
-        line_2 = new QFrame(gridLayoutWidget);
-        line_2->setObjectName(QString::fromUtf8("line_2"));
-        line_2->setFrameShape(QFrame::HLine);
-        line_2->setFrameShadow(QFrame::Sunken);
-
-        gridLayout->addWidget(line_2, 4, 0, 1, 1);
+        gridLayout->addWidget(label_steps, 6, 0, 1, 1);
 
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setSpacing(200);
@@ -173,19 +136,47 @@ public:
         horizontalLayout->addWidget(pushButton);
 
 
-        gridLayout->addLayout(horizontalLayout, 9, 0, 1, 1);
+        gridLayout->addLayout(horizontalLayout, 8, 0, 1, 1);
+
+        verticalLayout = new QVBoxLayout();
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        NameLabel = new QLabel(gridLayoutWidget);
+        NameLabel->setObjectName(QString::fromUtf8("NameLabel"));
+
+        verticalLayout->addWidget(NameLabel);
+
+        HotnessLabel = new QLabel(gridLayoutWidget);
+        HotnessLabel->setObjectName(QString::fromUtf8("HotnessLabel"));
+
+        verticalLayout->addWidget(HotnessLabel);
+
+        AllergensLabel = new QLabel(gridLayoutWidget);
+        AllergensLabel->setObjectName(QString::fromUtf8("AllergensLabel"));
+
+        verticalLayout->addWidget(AllergensLabel);
+
+        PiecesLabel = new QLabel(gridLayoutWidget);
+        PiecesLabel->setObjectName(QString::fromUtf8("PiecesLabel"));
+
+        verticalLayout->addWidget(PiecesLabel);
+
+        CaloriesLabel = new QLabel(gridLayoutWidget);
+        CaloriesLabel->setObjectName(QString::fromUtf8("CaloriesLabel"));
+
+        verticalLayout->addWidget(CaloriesLabel);
+
+        TimeLabel = new QLabel(gridLayoutWidget);
+        TimeLabel->setObjectName(QString::fromUtf8("TimeLabel"));
+
+        verticalLayout->addWidget(TimeLabel);
+
+
+        gridLayout->addLayout(verticalLayout, 2, 0, 1, 1);
 
         label_Ingredients = new QLabel(gridLayoutWidget);
         label_Ingredients->setObjectName(QString::fromUtf8("label_Ingredients"));
 
-        gridLayout->addWidget(label_Ingredients, 5, 0, 1, 1);
-
-        line_4 = new QFrame(gridLayoutWidget);
-        line_4->setObjectName(QString::fromUtf8("line_4"));
-        line_4->setFrameShape(QFrame::HLine);
-        line_4->setFrameShadow(QFrame::Sunken);
-
-        gridLayout->addWidget(line_4, 8, 0, 1, 1);
+        gridLayout->addWidget(label_Ingredients, 4, 0, 1, 1);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -226,15 +217,15 @@ public:
         actionCurrentRecipe->setText(QApplication::translate("MainWindow", "Edit", nullptr));
         actionCopy->setText(QApplication::translate("MainWindow", "Copy ", nullptr));
         actionEdit->setText(QApplication::translate("MainWindow", "Edit", nullptr));
-        titleLabel->setText(QApplication::translate("MainWindow", "FOODNAME", nullptr));
-        DietLabel->setText(QApplication::translate("MainWindow", "Dietary Restriction:", nullptr));
-        AllergiesLabel->setText(QApplication::translate("MainWindow", "Allergies:", nullptr));
+        label_steps->setText(QApplication::translate("MainWindow", "Steps:", nullptr));
+        pushButton_2->setText(QApplication::translate("MainWindow", "<<<", nullptr));
+        pushButton->setText(QApplication::translate("MainWindow", ">>>", nullptr));
+        NameLabel->setText(QApplication::translate("MainWindow", "Name:", nullptr));
+        HotnessLabel->setText(QApplication::translate("MainWindow", "Hotness:", nullptr));
+        AllergensLabel->setText(QApplication::translate("MainWindow", "Allergens:", nullptr));
         PiecesLabel->setText(QApplication::translate("MainWindow", "Pieces:", nullptr));
         CaloriesLabel->setText(QApplication::translate("MainWindow", "Calories", nullptr));
-        TTCLabel->setText(QApplication::translate("MainWindow", "Time to cook", nullptr));
-        label_steps->setText(QApplication::translate("MainWindow", "Steps:", nullptr));
-        pushButton_2->setText(QApplication::translate("MainWindow", "Previous", nullptr));
-        pushButton->setText(QApplication::translate("MainWindow", "Next", nullptr));
+        TimeLabel->setText(QApplication::translate("MainWindow", "Time:", nullptr));
         label_Ingredients->setText(QApplication::translate("MainWindow", "Ingredients: ", nullptr));
         menuAllergen->setTitle(QApplication::translate("MainWindow", "Allergen", nullptr));
         menuIngredients->setTitle(QApplication::translate("MainWindow", "Ingredients", nullptr));

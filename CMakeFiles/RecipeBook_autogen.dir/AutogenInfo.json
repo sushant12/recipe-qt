@@ -1,76 +1,76 @@
 {
-	"BUILD_DIR" : "/home/sushant/Documents/RecipeApp/RecipeBook_autogen",
-	"CMAKE_BINARY_DIR" : "/home/sushant/Documents/RecipeApp",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/sushant/Documents/RecipeApp",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/sushant/Documents/RecipeApp",
+	"BUILD_DIR" : "/home/sushant/Documents/recipe-qt/RecipeBook_autogen",
+	"CMAKE_BINARY_DIR" : "/home/sushant/Documents/recipe-qt",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/sushant/Documents/recipe-qt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/sushant/Documents/recipe-qt",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/home/sushant/Documents/RecipeApp",
+	"CMAKE_SOURCE_DIR" : "/home/sushant/Documents/recipe-qt",
 	"HEADERS" : 
 	[
 		[
-			"/home/sushant/Documents/RecipeApp/IncorrectInputException.h",
+			"/home/sushant/Documents/recipe-qt/IncorrectInputException.h",
 			"MU",
 			"EWIEGA46WW/moc_IncorrectInputException.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/addallergenwindow.h",
+			"/home/sushant/Documents/recipe-qt/addallergenwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_addallergenwindow.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/addingredientwindow.h",
+			"/home/sushant/Documents/recipe-qt/addingredientwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_addingredientwindow.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/allergen.h",
+			"/home/sushant/Documents/recipe-qt/allergen.h",
 			"MU",
 			"EWIEGA46WW/moc_allergen.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/basefooditem.h",
+			"/home/sushant/Documents/recipe-qt/basefooditem.h",
 			"MU",
 			"EWIEGA46WW/moc_basefooditem.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/createrecipewindow.h",
+			"/home/sushant/Documents/recipe-qt/createrecipewindow.h",
 			"MU",
 			"EWIEGA46WW/moc_createrecipewindow.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/editrecipewindow.h",
+			"/home/sushant/Documents/recipe-qt/editrecipewindow.h",
 			"MU",
 			"EWIEGA46WW/moc_editrecipewindow.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/global.h",
+			"/home/sushant/Documents/recipe-qt/global.h",
 			"MU",
 			"EWIEGA46WW/moc_global.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/incorrectinputexceptionwindow.h",
+			"/home/sushant/Documents/recipe-qt/incorrectinputexceptionwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_incorrectinputexceptionwindow.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/ingredient.h",
+			"/home/sushant/Documents/recipe-qt/ingredient.h",
 			"MU",
 			"EWIEGA46WW/moc_ingredient.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/mainwindow.h",
+			"/home/sushant/Documents/recipe-qt/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp"
 		],
 		[
-			"/home/sushant/Documents/RecipeApp/recipe.h",
+			"/home/sushant/Documents/recipe-qt/recipe.h",
 			"MU",
 			"EWIEGA46WW/moc_recipe.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/sushant/Documents/RecipeApp/RecipeBook_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/sushant/Documents/RecipeApp/RecipeBook_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/sushant/Documents/recipe-qt/RecipeBook_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/sushant/Documents/recipe-qt/RecipeBook_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -105,32 +105,32 @@
 		"-c",
 		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/sushant/Documents/RecipeApp/RecipeBook_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/sushant/Documents/recipe-qt/RecipeBook_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
-	"SETTINGS_FILE" : "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/sushant/Documents/RecipeApp/IncorrectInputException.cpp", "MU" ],
-		[ "/home/sushant/Documents/RecipeApp/addallergenwindow.cpp", "MU" ],
-		[ "/home/sushant/Documents/RecipeApp/addingredientwindow.cpp", "MU" ],
-		[ "/home/sushant/Documents/RecipeApp/allergen.cpp", "MU" ],
-		[ "/home/sushant/Documents/RecipeApp/createrecipewindow.cpp", "MU" ],
-		[ "/home/sushant/Documents/RecipeApp/editrecipewindow.cpp", "MU" ],
+		[ "/home/sushant/Documents/recipe-qt/IncorrectInputException.cpp", "MU" ],
+		[ "/home/sushant/Documents/recipe-qt/addallergenwindow.cpp", "MU" ],
+		[ "/home/sushant/Documents/recipe-qt/addingredientwindow.cpp", "MU" ],
+		[ "/home/sushant/Documents/recipe-qt/allergen.cpp", "MU" ],
+		[ "/home/sushant/Documents/recipe-qt/createrecipewindow.cpp", "MU" ],
+		[ "/home/sushant/Documents/recipe-qt/editrecipewindow.cpp", "MU" ],
 		[
-			"/home/sushant/Documents/RecipeApp/incorrectinputexceptionwindow.cpp",
+			"/home/sushant/Documents/recipe-qt/incorrectinputexceptionwindow.cpp",
 			"MU"
 		],
-		[ "/home/sushant/Documents/RecipeApp/ingredient.cpp", "MU" ],
-		[ "/home/sushant/Documents/RecipeApp/main.cpp", "MU" ],
-		[ "/home/sushant/Documents/RecipeApp/mainwindow.cpp", "MU" ],
-		[ "/home/sushant/Documents/RecipeApp/recipe.cpp", "MU" ]
+		[ "/home/sushant/Documents/recipe-qt/ingredient.cpp", "MU" ],
+		[ "/home/sushant/Documents/recipe-qt/main.cpp", "MU" ],
+		[ "/home/sushant/Documents/recipe-qt/mainwindow.cpp", "MU" ],
+		[ "/home/sushant/Documents/recipe-qt/recipe.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

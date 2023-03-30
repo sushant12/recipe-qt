@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sushant/Documents/RecipeApp/IncorrectInputException.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.o"
-  "/home/sushant/Documents/RecipeApp/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.o"
-  "/home/sushant/Documents/RecipeApp/RecipeBook_autogen/mocs_compilation.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.o"
-  "/home/sushant/Documents/RecipeApp/addallergenwindow.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.o"
-  "/home/sushant/Documents/RecipeApp/addingredientwindow.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.o"
-  "/home/sushant/Documents/RecipeApp/allergen.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/allergen.cpp.o"
-  "/home/sushant/Documents/RecipeApp/createrecipewindow.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.o"
-  "/home/sushant/Documents/RecipeApp/editrecipewindow.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.o"
-  "/home/sushant/Documents/RecipeApp/incorrectinputexceptionwindow.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.o"
-  "/home/sushant/Documents/RecipeApp/ingredient.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/ingredient.cpp.o"
-  "/home/sushant/Documents/RecipeApp/main.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/main.cpp.o"
-  "/home/sushant/Documents/RecipeApp/mainwindow.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/mainwindow.cpp.o"
-  "/home/sushant/Documents/RecipeApp/recipe.cpp" "/home/sushant/Documents/RecipeApp/CMakeFiles/RecipeBook.dir/recipe.cpp.o"
+  "/home/sushant/Documents/recipe-qt/IncorrectInputException.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/IncorrectInputException.cpp.o"
+  "/home/sushant/Documents/recipe-qt/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/RecipeBook_autogen/EWIEGA46WW/qrc_image.cpp.o"
+  "/home/sushant/Documents/recipe-qt/RecipeBook_autogen/mocs_compilation.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/RecipeBook_autogen/mocs_compilation.cpp.o"
+  "/home/sushant/Documents/recipe-qt/addallergenwindow.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/addallergenwindow.cpp.o"
+  "/home/sushant/Documents/recipe-qt/addingredientwindow.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/addingredientwindow.cpp.o"
+  "/home/sushant/Documents/recipe-qt/allergen.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/allergen.cpp.o"
+  "/home/sushant/Documents/recipe-qt/createrecipewindow.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/createrecipewindow.cpp.o"
+  "/home/sushant/Documents/recipe-qt/editrecipewindow.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/editrecipewindow.cpp.o"
+  "/home/sushant/Documents/recipe-qt/incorrectinputexceptionwindow.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/incorrectinputexceptionwindow.cpp.o"
+  "/home/sushant/Documents/recipe-qt/ingredient.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/ingredient.cpp.o"
+  "/home/sushant/Documents/recipe-qt/main.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/main.cpp.o"
+  "/home/sushant/Documents/recipe-qt/mainwindow.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/mainwindow.cpp.o"
+  "/home/sushant/Documents/recipe-qt/recipe.cpp" "/home/sushant/Documents/recipe-qt/CMakeFiles/RecipeBook.dir/recipe.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

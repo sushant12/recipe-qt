@@ -17,16 +17,15 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-    Ingredient* a = new Ingredient("Sample Ingredient", 0);
-    QList<Ingredient*> ingList{a};
-    Recipe* baseRecipe = new Recipe("Buffalo Wings", "1", "Bla bla", 30, ingList, "N/A", false);
+    Ingredient* ingredient = new Ingredient("Paprika", 5);
+    QList<Ingredient*> ingredients{ingredient};
+    Recipe* baseRecipe = new Recipe("Buffalo Wings", "1", "Bla bla", 30, ingredients, "N/A", false);
     listOfRecipies.push_back(baseRecipe);
-
     ui->setupUi(this);
-    this->setWindowTitle("Chicken Wings");
+    this->setWindowTitle("Tasty Chicken Wings");
     ui->gridLayout->setSizeConstraint(QLayout::SetMinimumSize);
     ui->label_Ingredients->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Minimum);
-     *this << baseRecipe;
+    *this << baseRecipe;
 };
 //memory management
 MainWindow::~MainWindow()
@@ -45,8 +44,8 @@ MainWindow::~MainWindow()
 
 //operator overloading
 void MainWindow::operator<< ( Recipe* b){
-    ui->titleLabel->setText(QString::fromStdString(b->name));
-    ui->AllergiesLabel->setText("Allergens : " + QString::fromStdString(b->allergens));
+    ui->NameLabel->setText("Name : " + QString::fromStdString(b->name));
+    ui->AllergensLabel->setText("Allergens : " + QString::fromStdString(b->allergens));
 
     std::string hotness = "";
     if(QString::number(b->isSpicy()) == '1'){
@@ -54,9 +53,9 @@ void MainWindow::operator<< ( Recipe* b){
     }else{
         hotness = "Not Spicy";
     }
-    ui->DietLabel->setText("Hotness : " + QString::fromStdString(hotness));
+    ui->HotnessLabel->setText("Hotness : " + QString::fromStdString(hotness));
     ui->PiecesLabel->setText("Pieces : " + QString::fromStdString(b->pieces));
-    ui->TTCLabel->setText("Time to Cook (minutes) : " +QString::number(b->timeToCook));
+    ui->TimeLabel->setText("Time : " +QString::number(b->timeToCook));
     ui->CaloriesLabel->setText("Calories :"  + QString::number(b->getCalories())); //overridden virtual function
     std::string ingList;
     for(Ingredient* i : b->listOfIngredients){

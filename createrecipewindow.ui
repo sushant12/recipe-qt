@@ -41,7 +41,7 @@
     <item>
      <widget class="QGroupBox" name="groupBox">
       <property name="title">
-       <string>Create New Chicken Wings Recipe</string>
+       <string>Create Your Chicken Wings Recipe</string>
       </property>
       <widget class="QTextEdit" name="Name">
        <property name="geometry">

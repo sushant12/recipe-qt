@@ -54,6 +54,7 @@ public:
     QLabel *label_4;
     QLabel *label_5;
     QLabel *label_6;
+    QLabel *label_7;
     QPushButton *pushButton;
 
     void setupUi(QDialog *CreateRecipeWindow)
@@ -129,7 +130,7 @@ public:
         label_2->setGeometry(QRect(630, 30, 181, 20));
         Pieces = new QComboBox(groupBox);
         Pieces->setObjectName(QString::fromUtf8("Pieces"));
-        Pieces->setGeometry(QRect(610, 320, 181, 28));
+        Pieces->setGeometry(QRect(460, 330, 181, 28));
         TimeToCook = new QSlider(groupBox);
         TimeToCook->setObjectName(QString::fromUtf8("TimeToCook"));
         TimeToCook->setGeometry(QRect(60, 390, 271, 21));
@@ -153,6 +154,9 @@ public:
         label_6 = new QLabel(groupBox);
         label_6->setObjectName(QString::fromUtf8("label_6"));
         label_6->setGeometry(QRect(0, 390, 67, 17));
+        label_7 = new QLabel(groupBox);
+        label_7->setObjectName(QString::fromUtf8("label_7"));
+        label_7->setGeometry(QRect(370, 340, 67, 17));
 
         verticalLayout->addWidget(groupBox);
 
@@ -170,7 +174,7 @@ public:
     void retranslateUi(QDialog *CreateRecipeWindow)
     {
         CreateRecipeWindow->setWindowTitle(QApplication::translate("CreateRecipeWindow", "Dialog", nullptr));
-        groupBox->setTitle(QApplication::translate("CreateRecipeWindow", "Create New Chicken Wings Recipe", nullptr));
+        groupBox->setTitle(QApplication::translate("CreateRecipeWindow", "Create Your Chicken Wings Recipe", nullptr));
         Name->setHtml(QApplication::translate("CreateRecipeWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -194,6 +198,7 @@ public:
         label_4->setText(QApplication::translate("CreateRecipeWindow", "Method", nullptr));
         label_5->setText(QApplication::translate("CreateRecipeWindow", "Hotness", nullptr));
         label_6->setText(QApplication::translate("CreateRecipeWindow", "Time", nullptr));
+        label_7->setText(QApplication::translate("CreateRecipeWindow", "Pieces", nullptr));
         pushButton->setText(QApplication::translate("CreateRecipeWindow", "Submit", nullptr));
     } // retranslateUi
 

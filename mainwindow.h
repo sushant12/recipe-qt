@@ -13,7 +13,6 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    //static vector<Recipe *> listOfRecipies;
     void operator<< ( Recipe* );
 
     friend class AddAllergenWindow;
@@ -22,7 +21,6 @@ public:
     ~MainWindow();
     std::vector<Recipe*>getListOfRecipies();
 public slots:
-
     void editRecipe(Recipe*);
     void updateRecipies(Recipe *);
 
@@ -32,15 +30,9 @@ private slots:
 
     void on_actionAllergen_triggered();
 
-//    void on_actionAllergen_triggered(bool checked);
-
     void on_actionIngredient_triggered();
 
     void on_actionRecipe_triggered();
-
-
-
-
     void on_actionCopy_Current_Recipe_triggered();
 
     void on_actionCurrentRecipe_triggered();
