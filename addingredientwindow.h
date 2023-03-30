@@ -4,25 +4,24 @@
 #include <QDialog>
 
 namespace Ui {
-class addingredientwindow;
+  class addingredientwindow;
 }
 
-class addingredientwindow : public QDialog
-{
-    Q_OBJECT
+class addingredientwindow: public QDialog {
+  Q_OBJECT
 
-public:
-     addingredientwindow(QWidget *parent = nullptr);
-    ~addingredientwindow();
-public slots:
-     void show_window();
-signals:
+  public:
+    addingredientwindow(QWidget * parent = nullptr);
+  ~addingredientwindow();
+  public slots:
+    void show_window();
+  signals:
     void ingredientsUpdated();
-private slots:
+  private slots:
     void on_pushButton_clicked();
 
-private:
-    Ui::addingredientwindow *ui;
+  private:
+    Ui::addingredientwindow * ui;
 };
 
 #endif // ADDINGREDIENTWINDOW_H

@@ -1,13 +1,12 @@
 #ifndef BASEALLERGENITEM_H
 #define BASEALLERGENITEM_H
 #include <string>
-//abstract class
-class BaseAllergenItem
-{
-public:
+ //abstract class
+class BaseAllergenItem {
+  public:
 
-    virtual ~BaseAllergenItem(){};
-    virtual std::string getName() = 0;
+    virtual~BaseAllergenItem() {};
+  virtual std::string getName() = 0;
 
 };
 

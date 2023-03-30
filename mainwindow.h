@@ -2,42 +2,44 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+
 #include "recipe.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
+namespace Ui {
+  class MainWindow;
+}
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow
-{
-    Q_OBJECT
+class MainWindow: public QMainWindow {
+  Q_OBJECT
 
-public:
-    void operator<< ( Recipe* );
+  public:
+    void operator << (Recipe * );
 
-    friend class AddAllergenWindow;
-    friend class deleterecipewindow;
-    MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
-    std::vector<Recipe*>getListOfRecipies();
-public slots:
-    void editRecipe(Recipe*);
-    void updateRecipies(Recipe *);
+  friend class AddAllergenWindow;
+  friend class deleterecipewindow;
+  MainWindow(QWidget * parent = nullptr);
+  ~MainWindow();
+  std::vector < Recipe * > getListOfRecipies();
+  public slots:
+    void editRecipe(Recipe * );
+  void updateRecipies(Recipe * );
 
-private slots:
+  private slots:
     void on_pushButton_clicked();
-    void on_pushButton_2_clicked();
+  void on_pushButton_2_clicked();
 
-    void on_actionAllergen_triggered();
+  void on_actionAllergen_triggered();
 
-    void on_actionIngredient_triggered();
+  void on_actionIngredient_triggered();
 
-    void on_actionRecipe_triggered();
-    void on_actionCopy_Current_Recipe_triggered();
+  void on_actionRecipe_triggered();
+  void on_actionCopy_Current_Recipe_triggered();
 
-    void on_actionCurrentRecipe_triggered();
+  void on_actionCurrentRecipe_triggered();
 
-private:
-    Ui::MainWindow *ui;
+  private:
+    Ui::MainWindow * ui;
 };
 #endif // MAINWINDOW_H
