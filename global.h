@@ -4,6 +4,6 @@
 #include "recipe.h"
 //global variable
 //pointers
-extern std::vector<Recipe*> listOfRecipies;
+extern std::vector<Recipe*> recipies;
 
 #endif // GLOBAL_H

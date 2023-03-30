@@ -19,7 +19,7 @@
 #include "global.h"
 
 int counter = 0;
-std::vector < Recipe * > listOfRecipies {};
+std::vector < Recipe * > recipies {};
 bool baseRecipeRemoved = false;
 
 MainWindow::MainWindow(QWidget * parent): QMainWindow(parent), ui(new Ui::MainWindow) {
@@ -28,7 +28,7 @@ MainWindow::MainWindow(QWidget * parent): QMainWindow(parent), ui(new Ui::MainWi
     ingredient
   };
   Recipe * baseRecipe = new Recipe("Buffalo Wings", "1", "Bla bla", 30, ingredients, "N/A", false);
-  listOfRecipies.push_back(baseRecipe);
+  recipies.push_back(baseRecipe);
   ui -> setupUi(this);
   this -> setWindowTitle("Tasty Chicken Wings");
   ui -> gridLayout -> setSizeConstraint(QLayout::SetMinimumSize);
@@ -43,7 +43,7 @@ MainWindow::~MainWindow() {
   for (Ingredient * i: Ingredient::getListOfIngredients()) {
     delete(i);
   }
-  for (Recipe * a: listOfRecipies) {
+  for (Recipe * a: recipies) {
     delete(a);
   }
   delete ui;
@@ -79,23 +79,23 @@ void MainWindow::operator << (Recipe * b) {
 
 void MainWindow::on_pushButton_clicked() {
   counter++;
-  if (counter >= listOfRecipies.size()) {
+  if (counter >= recipies.size()) {
 
     counter = 0;
   }
-  Recipe * currentRecipe = listOfRecipies.at(counter);
+  Recipe * currentRecipe = recipies.at(counter);
 
   * this << currentRecipe;
 
 }
 
-std::vector < Recipe * > MainWindow::getListOfRecipies() {
-  return listOfRecipies;
+std::vector < Recipe * > MainWindow::getrecipies() {
+  return recipies;
 }
 
 void MainWindow::updateRecipies(Recipe * a) {
   if (baseRecipeRemoved == false) {
-    listOfRecipies.erase(listOfRecipies.begin());
+    recipies.erase(recipies.begin());
     baseRecipeRemoved = true;
   }
 }
@@ -103,10 +103,10 @@ void MainWindow::updateRecipies(Recipe * a) {
 void MainWindow::on_pushButton_2_clicked() {
   counter--;
   if (counter <= -1) {
-    counter = listOfRecipies.size() - 1;
+    counter = recipies.size() - 1;
 
   }
-  Recipe * currentRecipe = listOfRecipies.at(counter);
+  Recipe * currentRecipe = recipies.at(counter);
   * this << currentRecipe;
 
 }
@@ -131,7 +131,7 @@ void MainWindow::on_actionRecipe_triggered() {
 
 void MainWindow::on_actionCopy_Current_Recipe_triggered() {
   //SHALLOW COPY
-  Recipe * newRecipe = listOfRecipies.at(counter);
+  Recipe * newRecipe = recipies.at(counter);
   CreateRecipeWindow * a = new CreateRecipeWindow;
   a -> setUi(newRecipe);
   a -> show_window();
@@ -140,7 +140,7 @@ void MainWindow::on_actionCopy_Current_Recipe_triggered() {
 
 void MainWindow::on_actionCurrentRecipe_triggered() {
   //deep copy
-  Recipe * newRecipe(listOfRecipies.at(counter));
+  Recipe * newRecipe(recipies.at(counter));
   for (int i = 0; i < newRecipe -> listOfIngredients.size(); i++) {}
   EditRecipeWindow * a = new EditRecipeWindow;
   connect(a, SIGNAL(recipeEdited(Recipe * )), this, SLOT(editRecipe(Recipe * )));
@@ -149,7 +149,7 @@ void MainWindow::on_actionCurrentRecipe_triggered() {
 
 }
 void MainWindow::editRecipe(Recipe * a) {
-  std::replace(listOfRecipies.begin(), listOfRecipies.end(), listOfRecipies.at(counter), a);
-  * this << listOfRecipies.at(counter);
+  std::replace(recipies.begin(), recipies.end(), recipies.at(counter), a);
+  * this << recipies.at(counter);
 
 }

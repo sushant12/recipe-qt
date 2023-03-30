@@ -21,7 +21,7 @@ class MainWindow: public QMainWindow {
   friend class deleterecipewindow;
   MainWindow(QWidget * parent = nullptr);
   ~MainWindow();
-  std::vector < Recipe * > getListOfRecipies();
+  std::vector < Recipe * > getrecipies();
   public slots:
     void editRecipe(Recipe * );
   void updateRecipies(Recipe * );

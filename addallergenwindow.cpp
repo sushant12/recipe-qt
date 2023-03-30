@@ -1,13 +1,9 @@
 #include "addallergenwindow.h"
 
-#include <iostream>
-
 #include <QDebug>
-
+#include <iostream>
 #include <QString>
-
 #include "allergen.h"
-
 #include "./ui_addallergenwindow.h"
 
 using namespace staticAllergens;
@@ -40,8 +36,4 @@ void AddAllergenWindow::on_pushButton_clicked() {
   }
 
   hide();
-}
-
-void AddAllergenWindow::on_pushButton_2_clicked() {
-
 }

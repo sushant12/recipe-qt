@@ -118,7 +118,7 @@ void CreateRecipeWindow::on_pushButton_clicked() {
   std::string pieces = ui -> Pieces -> currentText().toStdString();
 
   Recipe * newRecipe = new Recipe(name, pieces, stepsString, structTTC.TTCBitStruct, ingredients, listOfAllergensString.toStdString(), spicy);
-  listOfRecipies.push_back(newRecipe);
+  recipies.push_back(newRecipe);
   emit recipeAdded(newRecipe);
   hide();
 }
